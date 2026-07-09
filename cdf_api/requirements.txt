@@ -1,0 +1,10 @@
+fastapi==0.135.2
+pydantic==2.12.5
+Requests==2.33.0
+uvicorn==0.35.0
+urllib3==2.6.3
+openai==2.30.0
+python-dotenv==1.2.2
+schedule==1.2.2
+mysql-connector-python==9.3.0
+cryptography
