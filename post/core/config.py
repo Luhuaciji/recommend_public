@@ -12,7 +12,7 @@ load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 # 大模型配置 (Docker 运行时由环境变量注入)
 # ==========================================
 API_BASE_URL = os.getenv("API_BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1")
-API_KEY = os.getenv("API_KEY", "sk-7256f5cd72ca4227bf9b4273986875c7")
+API_KEY = os.getenv("API_KEY", "")
 TEXT_MODEL_NAME = os.getenv("TEXT_MODEL_NAME", "qwen3-max")
 
 LLM_TIMEOUT = 30.0
